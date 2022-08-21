@@ -10,7 +10,6 @@ body {
 #footer {
     background-color: #1F2937;
     margin:0;
-    flex: 0 0 auto;
 }
 
 a {
@@ -21,41 +20,47 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 15%;
+    flex: 1 1 auto;
 }
 
 #header img {
-    width: 50px;
-    height: auto;
-    padding:8px;
+    width: auto;
+    height: 80px;
+    padding:16px 0px 0px 0px;
 }
 
 ul {
     display: flex;
     gap: 16px;
-    margin: 0 16px;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#header a {
+a {
     color: #E5E7EB;
 }
 
 #intro {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0 10%;
+    padding: 50px 15%;
+    gap: 40px;
 }
 
 .intro-text {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-start;
-    flex: 1 1 auto;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex: 1 1 40%;
+    gap: 16px;
 }
-.intro-text h1 {
+.intro-text .hero {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -63,25 +68,124 @@ ul {
 }
 .intro-text p {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    margin:0px;
 }
 .intro-text .button {
     background-color: #3883F6;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     flex: 0;
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 15px;
+    align-self: flex-start;
 }
 #intro img {
-    width:300px;
-    height: auto;
-    padding: 50px;
+    width: auto;
+    height: 275px;
+    padding-bottom:20px;
+    flex: 0 1 auto;
 }
 
+#section {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15% 80px 15%;
+}
+
+#section .title {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+#snips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #888888;
+    justify-content: space-around;
+}
+
+.snippets {
+    flex: 0;
+    text-align: center;
+}
+
+#section2 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 25% 80px 25%;
+    text-align: left;
+}
+
+.quote {
+    text-align: left;
+}
+.credit {
+    margin-top: -30px;
+    font-size: 24px;
+    font-style:normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+#section3 {
+    margin: 10% 15%;
+    background-color:#3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    display: flex;
+    padding: 20px 80px;
+    justify-content: center;
+    align-items:center;
+    gap: 10%;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 1 1 auto;
+    width: 300px;
+    font-weight:200;
+}
+
+#section3 .button {
+    border: solid #E5E7EB;
+    flex: 0 0 auto;
+    padding: 8px 20px;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .text .donate {
+    font-size: 18px;
+    margin-bottom: -10px;
+    /* padding: 0; */
+}
+
+#footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
 img {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 125px;
 }
 
 

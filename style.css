@@ -70,6 +70,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
+    max-width: 20em;
 }
 .intro-text .button {
     background-color: #3883F6;

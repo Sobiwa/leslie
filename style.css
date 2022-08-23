@@ -27,7 +27,7 @@ a {
 #header img {
     width: auto;
     height: 80px;
-    padding:16px 0px 0px 0px;
+    padding:20px;
 }
 
 ul {
@@ -119,6 +119,10 @@ a {
     text-align: center;
 }
 
+.snippets img {
+    border-radius: 10px;
+}
+
 #section2 {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -190,7 +194,7 @@ a {
 }
 img {
     width: auto;
-    height: 125px;
+    height: 150px;
 }
 
 
